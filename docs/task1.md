@@ -20,11 +20,11 @@ A filter lets items pass through based on the conditions:
 ![1.2](screenshots/1.2.png)
 
 ### Step 3
-A variable setter maps the remaining variable names to:
-- Start Date
-- End Date
-- Time Searched
+A Set Variable module extracts:
+- `Start Date`
+- `End Date`
+- `Time Searched` (using inbuilt `now`)
 
-(All formarted DD-MM-YYYY )
+(All formated DD-MM-YYYY )
 
 ![1.3](screenshots/1.3.png)
