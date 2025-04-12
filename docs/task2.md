@@ -8,19 +8,19 @@
 ### Key Components Explained:
 
 1. **`items_page_by_column_values`**  
-   - The root query to search for items matching specific column values.  
-   - More efficient than fetching all items and filtering client-side.  
+- The root query to search for items matching specific column values.  
+- More efficient than fetching all items and filtering client-side.  
 
 2. **`board_id: 8918801943`**  
-   - Targets the specific Monday.com board containing the items.  
+- Targets the specific Monday.com board containing the items.  
 
 3. **Column Filters:**  
-   - **`project_status` Column:**  
-     - Only matches items with status exactly equal to `"In Progress"`.  
-   - **`color_mkpyt87b` Column (Priority):**  
-     - Uses Monday.com's internal column ID for the priority field.  
-     - Filters for items marked as `"High"` priority.  
+- **`project_status` Column:**  
+  - Only matches items with status exactly equal to `"In Progress"`.  
+- **`color_mkpyt87b` Column (Priority):**  
+  - Uses Monday.com's internal column ID for the priority field.  
+  - Filters for items marked as `"High"` priority.  
 
 4. **Returned Fields:**  
-   - `id`: The Monday.com item ID
-   - `name`: The display name of each matching item.  
+- `id`: The Monday.com item ID
+- `name`: The display name of each matching item.  
