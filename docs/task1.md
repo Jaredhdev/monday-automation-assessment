@@ -3,7 +3,7 @@
 
 ...
 
-![1.1](screenshots/1.1.png)
+![1.1](screenshots/1.1.png){ width="200" }
 
 ### Step 2
 ...
