@@ -12,7 +12,7 @@
    - More efficient than fetching all items and filtering client-side.  
 
 2. **`board_id: 8918801943`**  
-   - Targets th e specific Monday.com board containing the items.  
+   - Targets the specific Monday.com board containing the items.  
 
 3. **Column Filters:**  
    - **`project_status` Column:**  
