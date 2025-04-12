@@ -23,8 +23,8 @@ A filter lets items pass through based on the conditions:
 A Set Variable module extracts:
 - `Start Date`
 - `End Date`
-- `Time Searched` (using inbuilt `now`)
+- `Time Searched` (24-02-2025)
 
-(All formated DD-MM-YYYY )
+(All formated DD-MM-YYYY using `formatDate()`)
 
 ![1.3](screenshots/1.3.png)
